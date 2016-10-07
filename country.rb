@@ -3,13 +3,15 @@ class Country
 		puts "This is the Country code."
 	end
 
-	def countryCode 
-	 # the country code is 00
+	def countryCode(countryCode)
+		@countrycode=countryCode
+	 puts  "#{@countrycode}"
 	end
 end
 
-class City <
-	def initialize
+class City < Country
+	def initialize(cityCode)
+		@cityCode=212
 		puts "This is the City code."
 	end
 
@@ -27,7 +29,7 @@ class Number < Country
 end
 
 class Number < City
-	def initialize
+	def initialize 
 		puts "This is the landline number."
 	end
 
