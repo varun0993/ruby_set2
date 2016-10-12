@@ -2,7 +2,7 @@
 
 numbers = [1,2,3,4]
 
-puts numbers.first?
+puts numbers.first
 
 a = .5
 b = 1
@@ -11,6 +11,6 @@ c = a + b
 
 puts c
 
-result =numbers.include(3)
+result =numbers.include?(3)
 
 puts result
